@@ -1,4 +1,4 @@
-##Algorithm Selection & Model Evaluation
+## Algorithm Selection & Model Evaluation
 
 For dealing with the objective of predicting visitors for Recruit , we had two choices of approaching the problem. One from the angle of a regression problem or the other as a time series prediction. However, upon data exploration, we established the fact that number of restaurants weren't same throughout the data, in fact they jumped from 300 to 800. Thus, since the lag information of 500 odd such restaurants was not available, we reasoned that a timeseries approach would be challenging. Hence, we started with fitting regression models on the dataset.
 
