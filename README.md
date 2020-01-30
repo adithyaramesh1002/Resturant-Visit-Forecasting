@@ -1,3 +1,14 @@
+
+## Kaggle Resturant Visit Forecasting 
+
+Running a thriving local restaurant isn't always as charming as first impressions appear. There are often all sorts of unexpected troubles popping up that could hurt business.
+
+One common predicament is that restaurants need to know how many customers to expect each day to effectively purchase ingredients and schedule staff members. This forecast isn't easy to make because many unpredictable factors affect restaurant attendance, like weather and local competition. It's even harder for newer restaurants with little historical data.
+
+Recruit Holdings has unique access to key datasets that could make automated future customer prediction possible. Specifically, Recruit Holdings owns Hot Pepper Gourmet (a restaurant review service), AirREGI (a restaurant point of sales service), and Restaurant Board (reservation log management software).
+
+In this competition, you're challenged to use reservation and visitation data to predict the total number of visitors to a restaurant for future dates. This information will help restaurants be much more efficient and allow them to focus on creating an enjoyable dining experience for their customers.
+
 ## Algorithm Selection & Model Evaluation
 
 For dealing with the objective of predicting visitors for Recruit , we had two choices of approaching the problem. One from the angle of a regression problem or the other as a time series prediction. However, upon data exploration, we established the fact that number of restaurants weren't same throughout the data, in fact they jumped from 300 to 800. Thus, since the lag information of 500 odd such restaurants was not available, we reasoned that a timeseries approach would be challenging. Hence, we started with fitting regression models on the dataset.
